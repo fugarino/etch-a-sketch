@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="title">
+      <h1>Etch-a-sketch</h1>
+    </header>
+    <!-- Content -->
+    <main class="main">
+      <!-- Settings -->
+      <div class="settings">
+        <input type="color" id="colorPicker" value="#333333" />
+        <button class="btn color-mode" id="colorMode">Color mode</button>
+        <button class="btn rainbow-mode" id="rainbowMode">Rainbow mode</button>
+        <button class="btn eraser" id="eraser">Eraser</button>
+        <button class="btn clear" id="clear">Clear</button>
+        <!-- Size -->
+        <div class="size">
+          <div class="btn-small small" id="smallBtn">Small</div>
+          <div class="btn-small medium" id="mediumBtn">Medium</div>
+          <div class="btn-small large" id="largeBtn">Large</div>
+        </div>
+      </div>
+      <!-- Grid -->
+      <div class="container"></div>
+    </main>
+    <!-- Script -->
+    <script src="./app.js"></script>
+  </body>
+</html>
